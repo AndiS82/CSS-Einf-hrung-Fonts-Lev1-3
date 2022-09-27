@@ -1,0 +1,23 @@
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+section {
+    color: grey;
+}
+
+section ul li:nth-of-type(1) {
+    text-decoration: overline;
+}
+
+section ul li:nth-of-type(2) {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+section ul li:nth-of-type(3) {
+    text-decoration: underline;
+    text-align: right;
+}

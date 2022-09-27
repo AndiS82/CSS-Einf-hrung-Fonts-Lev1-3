@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px aqua;
+    font-family: Tahoma;
+    text-align: center;
+    background-color: grey;
+}
+
+article {
+    text-indent: 10px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+h2 {
+    letter-spacing: 10px;
+    text-shadow: 2px 2px gold;
+}
+
+article:nth-of-type(2) p:nth-of-type(1) {
+    line-height: 10px;
+    background-color: blue;
+}
+
+article:nth-of-type(2) p:nth-of-type(2) {
+    line-height: 10px;
+    background-color: pink;
+}

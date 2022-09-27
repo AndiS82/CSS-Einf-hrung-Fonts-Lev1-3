@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url(./3_1fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./3_1fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(./3_1fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url(./3_1fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px red;
+    font-family: 'ShadowsIntoLight';
+}
+
+h2 {
+    color: black;
+    background-color: palegreen;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-family: 'Pacifico';
+}
+
+p strong:nth-of-type(1) {
+    color: gold;
+}
+
+p em:nth-of-type(1) {
+    color: red;
+    font-style: italic;
+}
+
+h3 {
+    font-family: 'ShadowsIntoLight';
+}
+
+ol {
+    font-family: 'Cinzel';
+    font-variant-caps: petite-caps;
+    color: crimson;
+}
+
+h4 {
+    font-family: 'Pacifico';
+    text-shadow: 3px 3px grey;
+    color: black;
+    background-color: yellow;
+    font-size: larger;
+    word-spacing: 5px;
+    text-align: justify;
+}
+
+h5 {
+    font-family: 'Cinzel';
+    text-align: justify;
+    letter-spacing: 5px;
+}
+
+ul {
+    background-color: lightgrey;
+    line-height: 50px;
+}
